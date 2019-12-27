@@ -1,0 +1,2 @@
+pip install sphinx sphinxcontrib-httpdomain
+pip install sphinx_rtd_theme
