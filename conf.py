@@ -21,6 +21,19 @@ project = 'robot'
 copyright = '2019, wh-0501'
 author = 'wh-0501'
 
+#from recommonmark.parser import CommonMarkParser
+#source_parsers = {
+#    '.md': CommonMarkParser,
+#}
+## the same with
+# source_parsers = {
+#    '.md': recommonmark.parser.CommonMarkParser,
+#}
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # -- General configuration ---------------------------------------------------
 
@@ -28,6 +41,7 @@ author = 'wh-0501'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'recommonmark'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -1,6 +1,23 @@
 pip install sphinx sphinxcontrib-httpdomain
 pip install sphinx_rtd_theme
 
+### Instructions
+## 1. create dict
+#	make demo
+#	cd demo
+#	sphinx-quickstart
+# 
+## 2. modify config file
+#	html_theme = "sphinx_rtd_theme"
+#
+## 3. Write a doc using reStructuredText syntax
+#	eg. demo.rst
+#
+## 4. add this file to index.rst
+#
+## 5. build
+#	make html
+
 ### build pdf 
 ## 1. ubuntu
 # a). install requirement

@@ -10,7 +10,7 @@ Welcome to robot's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   建图/cartographer/index
 
 Indices and tables
 ==================
